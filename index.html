@@ -1,11 +1,26 @@
 <html>
 
 <head>
+	<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Gentium+Basic:400/Roboto:400">
 	<style>
 		html, body {margin: 0 auto; width:100%; height:100%; padding:0;}
 		.title_wrap {background: url("images/007.jpg")center top; width: 100%; height: 350px; background-size: cover; margin: 0 auto;}
 		.title {background: url("images/007.jpg")center -145px; width: 960px; height: 350px; background-size: cover; margin: 0 auto;}
-	
+		
+		@font-face {
+		font-family: 'Gentium Basic';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Gentium Basic'),url(//brick.a.ssl.fastly.net/fonts/gentiumbasic/400.woff) format('woff');
+		}
+		
+		@font-face {
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Roboto'),url(//brick.a.ssl.fastly.net/fonts/roboto/400.woff) format('woff');
+		}
+		
 		.name1 {
 		margin: 0 auto;
 		width: 960px;
@@ -34,11 +49,13 @@
 		line-height: 36px;
 		color: #3a3a3a;
 		    word-break: break-word;	
+		font-family: 'Roboto';    
 		}
 		
 		.post_title {
 		width: 700px;
 		margin: 0 auto;
+		font-family: 'Gentium Basic';
 		text-align: center;
 		font-size: 26px;
 		font-weight: bold;
